@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:secondproject/calculatorscreen.dart';
 import 'package:secondproject/counterappscreen.dart';
+import 'package:secondproject/inputcalculatorscreen.dart';
+import 'package:secondproject/signupscreen.dart';
 
 void main() {
   runApp(const MyApp());
