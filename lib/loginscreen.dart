@@ -37,10 +37,9 @@ class _LoginscreenState extends State<Loginscreen> {
             child: TextFormField(
               controller: emailController,
               decoration: InputDecoration(
-                prefixIcon: Icon(Icons.email_outlined),
-                hintText: 'Entre Email',
-                hintStyle: TextStyle(color: Colors.grey)
-              ),
+                  prefixIcon: Icon(Icons.email_outlined),
+                  hintText: 'Entre Email',
+                  hintStyle: TextStyle(color: Colors.grey)),
             ),
           ),
           Container(
@@ -53,10 +52,9 @@ class _LoginscreenState extends State<Loginscreen> {
             child: TextFormField(
               controller: passwordController,
               decoration: InputDecoration(
-                prefixIcon: Icon(Icons.lock_outline),
-                hintText: 'Enter Password',
-                hintStyle: TextStyle(color: Colors.grey)
-              ),
+                  prefixIcon: Icon(Icons.lock_outline),
+                  hintText: 'Enter Password',
+                  hintStyle: TextStyle(color: Colors.grey)),
             ),
           ),
           Container(
